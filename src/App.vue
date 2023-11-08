@@ -1,9 +1,11 @@
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+import AppHero from './components/AppHero.vue'
 
 export default {
   components: {
-    HelloWorld
+    HelloWorld,
+    AppHero
   }
 }
 </script>
@@ -11,6 +13,7 @@ export default {
 <template>
   <div>
     <HelloWorld />
+    <AppHero />
   </div>
 </template>
 
